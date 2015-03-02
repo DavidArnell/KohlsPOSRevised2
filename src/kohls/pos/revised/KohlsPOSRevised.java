@@ -20,7 +20,7 @@ public class KohlsPOSRevised {
         // Initiaize Receipt
         
         // Retrieve information from FakeDatabase
-        // 
+        //   
         // Assemble Receipt
         
         // Print Receipt
