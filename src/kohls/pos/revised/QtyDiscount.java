@@ -1,15 +1,20 @@
 package kohls.pos.revised;
 
-public class DiscountQuantity implements DiscountStrategy{
+public class QtyDiscount implements DiscountStrategy{
     
     
 
-    private double quantityPurchased =5;
+    private int quantityPurchased =5;
     private double quantityDiscount =2;
     private double percentDiscount = 0.5;
     private double discountedPrice;
     private double itemCost = 250;
     private int discountsApplied;
+
+    QtyDiscount(double d, int i) {
+        this.percentDiscount = d;
+        this.quantityPurchased = i;
+    }
     
     
     @Override
