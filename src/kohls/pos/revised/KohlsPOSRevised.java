@@ -16,6 +16,15 @@ public class KohlsPOSRevised {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        // Initiaize Receipt
+        
+        // Retrieve information from FakeDatabase
+        //
+        // Assemble Receipt
+        
+        // Print Receipt
+        
     }
     
 }
