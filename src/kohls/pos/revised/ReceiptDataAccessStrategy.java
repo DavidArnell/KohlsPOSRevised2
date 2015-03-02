@@ -14,6 +14,7 @@ public interface ReceiptDataAccessStrategy {
     // create method to retrieve customer number
     public Customer findCustomer(final String custId);
     
+    // create method to retrieve product information
     public Product findProduct(final String prodId);
     
 }

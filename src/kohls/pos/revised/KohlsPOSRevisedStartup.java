@@ -9,7 +9,7 @@ package kohls.pos.revised;
  *
  * @author David
  */
-public class KohlsPOSRevised {
+public class KohlsPOSRevisedStartup {
 
     /**
      * @param args the command line arguments
@@ -17,7 +17,11 @@ public class KohlsPOSRevised {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        //Startup the register
+        CashRegister cashRegister = new CashRegister();
+        
         // Initiaize Receipt
+        
         
         // Retrieve information from FakeDatabase
         //   
